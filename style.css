@@ -1,0 +1,84 @@
+/*Created on : Oct 29, 2018, 10:56:29 PM
+    Author     : Schiler Pascal
+*/
+
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica,sans-serif;
+}
+.header {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+.footer {
+    background-color: white;
+    color: black;
+    padding: 1px;
+	align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+
+body{ margin: 4px;
+    background-color:white}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+li { float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color:green;
+    color: black;
+}
+.active {
+    background-color:green;
+}
+/* Image clearfix overflow*/
+div {
+    border-radius: 4px;
+    padding: 0;
+}
+.img1 {
+    float:left;
+     border-radius:4px;
+    }
+.clearfix {
+    overflow:auto;
+}
+.img2 {
+      float:left;
+       border-radius: 4px;
+}
+.img3 {float:middle;
+       border-radius: 4px;    
+}
+/*Divide text*/
+div {
+    font-family: verdana;
+}
+/* Text for the page*/
+    h1 {text-align: center  ;color:green; font-family:verdana;}        
+    
+h2 {text-align: left; color:black; font-family: verdana; font-size: 14pt}
+              
+    p{ font-family: Arial;  font-size: 12pt;}
+          p.one {text-align:right; color: black}
+      
+/* Footer on bottom of the page */
+.footer {
+  height: 50px;
+}
